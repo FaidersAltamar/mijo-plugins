@@ -1,0 +1,87 @@
+{
+  "name": "mijocode-plugins-official",
+  "version": "1.0.0",
+  "description": "Mijo plugins registry: código, seguridad, documentación y productividad para tu agente.",
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": {
+        "source": "directory",
+        "path": "plugins/code-review"
+      },
+      "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos."
+    },
+    {
+      "name": "test-writer",
+      "source": {
+        "source": "directory",
+        "path": "plugins/test-writer"
+      },
+      "description": "Genera tests unitarios y de integración con casos de borde reales."
+    },
+    {
+      "name": "security-audit",
+      "source": {
+        "source": "directory",
+        "path": "plugins/security-audit"
+      },
+      "description": "Auditoría de seguridad: inyección, secretos, auth, dependencias y superficie de ataque."
+    },
+    {
+      "name": "db-migrate",
+      "source": {
+        "source": "directory",
+        "path": "plugins/db-migrate"
+      },
+      "description": "Migraciones de base de datos seguras: expand/contract, reversibles y con rollback."
+    },
+    {
+      "name": "api-design",
+      "source": {
+        "source": "directory",
+        "path": "plugins/api-design"
+      },
+      "description": "Diseño de APIs: contratos REST/RPC consistentes, errores, versionado y paginación."
+    },
+    {
+      "name": "perf-audit",
+      "source": {
+        "source": "directory",
+        "path": "plugins/perf-audit"
+      },
+      "description": "Auditoría de rendimiento: hot paths, N+1, asignaciones, tamaños de paquete y cachés."
+    },
+    {
+      "name": "refactor-guide",
+      "source": {
+        "source": "directory",
+        "path": "plugins/refactor-guide"
+      },
+      "description": "Refactor seguro: pasos pequeños reversibles, tests primero, sin cambios de comportamiento."
+    },
+    {
+      "name": "debug-console",
+      "source": {
+        "source": "directory",
+        "path": "plugins/debug-console"
+      },
+      "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables, causa raíz verificada."
+    },
+    {
+      "name": "docs-writer",
+      "source": {
+        "source": "directory",
+        "path": "plugins/docs-writer"
+      },
+      "description": "Documentación técnica: READMEs, guías de decisión y changelogs con voz consistente."
+    },
+    {
+      "name": "release-notes",
+      "source": {
+        "source": "directory",
+        "path": "plugins/release-notes"
+      },
+      "description": "Notas de versión listas para publicar desde commits y PRs, ordenadas por impacto."
+    }
+  ]
+}

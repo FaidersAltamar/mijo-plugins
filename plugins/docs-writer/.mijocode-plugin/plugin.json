@@ -1,0 +1,11 @@
+{
+  "name": "docs-writer",
+  "version": "1.0.0",
+  "description": "Documentación técnica: READMEs, guías de decisión y changelogs con voz consistente.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

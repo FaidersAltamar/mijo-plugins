@@ -1,0 +1,11 @@
+{
+  "name": "release-notes",
+  "version": "1.0.0",
+  "description": "Notas de versión listas para publicar desde commits y PRs, ordenadas por impacto.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

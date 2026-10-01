@@ -1,0 +1,11 @@
+{
+  "name": "db-migrate",
+  "version": "1.0.0",
+  "description": "Migraciones de base de datos seguras: expand/contract, reversibles y con rollback.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

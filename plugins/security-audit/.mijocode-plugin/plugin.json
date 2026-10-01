@@ -1,0 +1,11 @@
+{
+  "name": "security-audit",
+  "version": "1.0.0",
+  "description": "Auditoría de seguridad: inyección, secretos, auth, dependencias y superficie de ataque.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

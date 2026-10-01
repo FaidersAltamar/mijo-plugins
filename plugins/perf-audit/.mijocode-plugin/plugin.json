@@ -1,0 +1,11 @@
+{
+  "name": "perf-audit",
+  "version": "1.0.0",
+  "description": "Auditoría de rendimiento: hot paths, N+1, asignaciones, tamaños de paquete y cachés.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}
