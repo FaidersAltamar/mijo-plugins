@@ -9,10 +9,7 @@
   "plugins": [
     {
       "name": "code-review",
-      "source": {
-        "source": "directory",
-        "path": "plugins/code-review"
-      },
+      "source": "./plugins/code-review",
       "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos.",
       "version": "1.0.0",
       "author": {
@@ -30,10 +27,7 @@
     },
     {
       "name": "test-writer",
-      "source": {
-        "source": "directory",
-        "path": "plugins/test-writer"
-      },
+      "source": "./plugins/test-writer",
       "description": "Genera tests unitarios y de integración con casos de borde reales.",
       "version": "1.0.0",
       "author": {
@@ -51,10 +45,7 @@
     },
     {
       "name": "security-audit",
-      "source": {
-        "source": "directory",
-        "path": "plugins/security-audit"
-      },
+      "source": "./plugins/security-audit",
       "description": "Auditoría de seguridad: inyección, secretos, auth y dependencias.",
       "version": "1.0.0",
       "author": {
@@ -72,10 +63,7 @@
     },
     {
       "name": "db-migrate",
-      "source": {
-        "source": "directory",
-        "path": "plugins/db-migrate"
-      },
+      "source": "./plugins/db-migrate",
       "description": "Migraciones seguras: expand/contract, reversibles, con rollback documentado.",
       "version": "1.0.0",
       "author": {
@@ -93,10 +81,7 @@
     },
     {
       "name": "api-design",
-      "source": {
-        "source": "directory",
-        "path": "plugins/api-design"
-      },
+      "source": "./plugins/api-design",
       "description": "Diseño de APIs consistentes: errores, versionado y paginación.",
       "version": "1.0.0",
       "author": {
@@ -114,10 +99,7 @@
     },
     {
       "name": "perf-audit",
-      "source": {
-        "source": "directory",
-        "path": "plugins/perf-audit"
-      },
+      "source": "./plugins/perf-audit",
       "description": "Rendimiento: hot paths, N+1, asignaciones y cachés faltantes.",
       "version": "1.0.0",
       "author": {
@@ -135,10 +117,7 @@
     },
     {
       "name": "refactor-guide",
-      "source": {
-        "source": "directory",
-        "path": "plugins/refactor-guide"
-      },
+      "source": "./plugins/refactor-guide",
       "description": "Refactor seguro en pasos pequeños y reversibles, tests primero.",
       "version": "1.0.0",
       "author": {
@@ -156,10 +135,7 @@
     },
     {
       "name": "debug-console",
-      "source": {
-        "source": "directory",
-        "path": "plugins/debug-console"
-      },
+      "source": "./plugins/debug-console",
       "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables.",
       "version": "1.0.0",
       "author": {
@@ -177,10 +153,7 @@
     },
     {
       "name": "docs-writer",
-      "source": {
-        "source": "directory",
-        "path": "plugins/docs-writer"
-      },
+      "source": "./plugins/docs-writer",
       "description": "Documentación técnica clara: qué-es / cuándo / cómo, con ejemplos reales.",
       "version": "1.0.0",
       "author": {
@@ -198,10 +171,7 @@
     },
     {
       "name": "release-notes",
-      "source": {
-        "source": "directory",
-        "path": "plugins/release-notes"
-      },
+      "source": "./plugins/release-notes",
       "description": "Notas de versión por impacto desde commits y PRs.",
       "version": "1.0.0",
       "author": {
