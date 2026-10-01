@@ -1,7 +1,7 @@
 {
   "name": "debug-console",
   "version": "1.0.0",
-  "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables, causa raíz verificada.",
+  "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

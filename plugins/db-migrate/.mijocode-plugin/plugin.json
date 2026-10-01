@@ -1,7 +1,7 @@
 {
   "name": "db-migrate",
   "version": "1.0.0",
-  "description": "Migraciones de base de datos seguras: expand/contract, reversibles y con rollback.",
+  "description": "Migraciones seguras: expand/contract, reversibles, con rollback documentado.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

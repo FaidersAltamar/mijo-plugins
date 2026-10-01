@@ -1,9 +1,7 @@
 # Refactor Guide
 
-## Instrucciones
-
-1. Define el objetivo estructural antes de tocar nada.
-2. Tests que caractericen el comportamiento actual existen primero.
-3. Pasos pequeños: cada commit compila y pasa los tests.
-4. Nunca mezcles refactor con feature en el mismo cambio.
-5. Al final: lista de lo que cambió (estructura) vs lo que NO cambió (comportamiento).
+1. Objetivo estructural antes de tocar nada.
+2. Tests que caractericen el comportamiento actual primero.
+3. Pasos pequeños: cada commit compila y pasa tests.
+4. Nunca mezcles refactor con feature.
+5. Lista qué cambió (estructura) y qué no (comportamiento).

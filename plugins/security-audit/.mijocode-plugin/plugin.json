@@ -1,7 +1,7 @@
 {
   "name": "security-audit",
   "version": "1.0.0",
-  "description": "Auditoría de seguridad: inyección, secretos, auth, dependencias y superficie de ataque.",
+  "description": "Auditoría de seguridad: inyección, secretos, auth y dependencias.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

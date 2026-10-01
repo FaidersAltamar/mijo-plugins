@@ -1,7 +1,7 @@
 {
   "name": "perf-audit",
   "version": "1.0.0",
-  "description": "Auditoría de rendimiento: hot paths, N+1, asignaciones, tamaños de paquete y cachés.",
+  "description": "Rendimiento: hot paths, N+1, asignaciones y cachés faltantes.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

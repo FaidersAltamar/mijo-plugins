@@ -1,7 +1,11 @@
 {
   "name": "mijocode-plugins-official",
-  "version": "1.0.0",
-  "description": "Mijo plugins registry: código, seguridad, documentación y productividad para tu agente.",
+  "owner": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "version": "1.1.0",
+  "description": "Mijo plugins registry: código, seguridad, documentación y productividad.",
   "plugins": [
     {
       "name": "code-review",
@@ -9,7 +13,20 @@
         "source": "directory",
         "path": "plugins/code-review"
       },
-      "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos."
+      "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "test-writer",
@@ -17,7 +34,20 @@
         "source": "directory",
         "path": "plugins/test-writer"
       },
-      "description": "Genera tests unitarios y de integración con casos de borde reales."
+      "description": "Genera tests unitarios y de integración con casos de borde reales.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Genera tests unitarios y de integración con casos de borde reales.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "security-audit",
@@ -25,7 +55,20 @@
         "source": "directory",
         "path": "plugins/security-audit"
       },
-      "description": "Auditoría de seguridad: inyección, secretos, auth, dependencias y superficie de ataque."
+      "description": "Auditoría de seguridad: inyección, secretos, auth y dependencias.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Auditoría de seguridad: inyección, secretos, auth y dependencias.",
+        "categories": [
+          "security"
+        ]
+      }
     },
     {
       "name": "db-migrate",
@@ -33,7 +76,20 @@
         "source": "directory",
         "path": "plugins/db-migrate"
       },
-      "description": "Migraciones de base de datos seguras: expand/contract, reversibles y con rollback."
+      "description": "Migraciones seguras: expand/contract, reversibles, con rollback documentado.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Migraciones seguras: expand/contract, reversibles, con rollback documentado.",
+        "categories": [
+          "data"
+        ]
+      }
     },
     {
       "name": "api-design",
@@ -41,7 +97,20 @@
         "source": "directory",
         "path": "plugins/api-design"
       },
-      "description": "Diseño de APIs: contratos REST/RPC consistentes, errores, versionado y paginación."
+      "description": "Diseño de APIs consistentes: errores, versionado y paginación.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Diseño de APIs consistentes: errores, versionado y paginación.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "perf-audit",
@@ -49,7 +118,20 @@
         "source": "directory",
         "path": "plugins/perf-audit"
       },
-      "description": "Auditoría de rendimiento: hot paths, N+1, asignaciones, tamaños de paquete y cachés."
+      "description": "Rendimiento: hot paths, N+1, asignaciones y cachés faltantes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Rendimiento: hot paths, N+1, asignaciones y cachés faltantes.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "refactor-guide",
@@ -57,7 +139,20 @@
         "source": "directory",
         "path": "plugins/refactor-guide"
       },
-      "description": "Refactor seguro: pasos pequeños reversibles, tests primero, sin cambios de comportamiento."
+      "description": "Refactor seguro en pasos pequeños y reversibles, tests primero.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Refactor seguro en pasos pequeños y reversibles, tests primero.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "debug-console",
@@ -65,7 +160,20 @@
         "source": "directory",
         "path": "plugins/debug-console"
       },
-      "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables, causa raíz verificada."
+      "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables.",
+        "categories": [
+          "engineering"
+        ]
+      }
     },
     {
       "name": "docs-writer",
@@ -73,7 +181,20 @@
         "source": "directory",
         "path": "plugins/docs-writer"
       },
-      "description": "Documentación técnica: READMEs, guías de decisión y changelogs con voz consistente."
+      "description": "Documentación técnica clara: qué-es / cuándo / cómo, con ejemplos reales.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Documentación técnica clara: qué-es / cuándo / cómo, con ejemplos reales.",
+        "categories": [
+          "documentation"
+        ]
+      }
     },
     {
       "name": "release-notes",
@@ -81,7 +202,20 @@
         "source": "directory",
         "path": "plugins/release-notes"
       },
-      "description": "Notas de versión listas para publicar desde commits y PRs, ordenadas por impacto."
+      "description": "Notas de versión por impacto desde commits y PRs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Notas de versión por impacto desde commits y PRs.",
+        "categories": [
+          "productivity"
+        ]
+      }
     }
   ]
 }

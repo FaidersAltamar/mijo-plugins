@@ -1,7 +1,7 @@
 {
   "name": "refactor-guide",
   "version": "1.0.0",
-  "description": "Refactor seguro: pasos pequeños reversibles, tests primero, sin cambios de comportamiento.",
+  "description": "Refactor seguro en pasos pequeños y reversibles, tests primero.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

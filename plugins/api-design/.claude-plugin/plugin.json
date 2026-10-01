@@ -1,7 +1,7 @@
 {
   "name": "api-design",
   "version": "1.0.0",
-  "description": "Diseño de APIs: contratos REST/RPC consistentes, errores, versionado y paginación.",
+  "description": "Diseño de APIs consistentes: errores, versionado y paginación.",
   "author": {
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"

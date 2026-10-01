@@ -1,10 +1,7 @@
 # DB Migrate
 
-## Instrucciones
-
-Al crear o revisar una migración:
-1. Sigue expand-and-contract cuando el cambio afecta código en uso.
-2. Cada migración tiene `up` y `down` reales y probados.
-3. DDL peligrosa (DROP, ALTER masivo, RENAME) va con confirmación explícita.
-4. Verifica índices necesarios para las nuevas consultas.
-5. Lista los pasos de rollback en el comentario.
+1. Expand-and-contract cuando el cambio afecta código en uso.
+2. Cada migración con up y down reales.
+3. DDL peligrosa con confirmación explícita.
+4. Verifica índices para las nuevas consultas.
+5. Comenta los pasos de rollback.
