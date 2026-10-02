@@ -20,9 +20,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Revisión de código estructurada: hallazgos por severidad, contratos y tests sugeridos.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -38,9 +36,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Genera tests unitarios y de integración con casos de borde reales.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -56,9 +52,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Auditoría de seguridad: inyección, secretos, auth y dependencias.",
-        "categories": [
-          "security"
-        ]
+        "category": "security"
       }
     },
     {
@@ -74,9 +68,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Migraciones seguras: expand/contract, reversibles, con rollback documentado.",
-        "categories": [
-          "data"
-        ]
+        "category": "data"
       }
     },
     {
@@ -92,9 +84,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Diseño de APIs consistentes: errores, versionado y paginación.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -110,9 +100,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Rendimiento: hot paths, N+1, asignaciones y cachés faltantes.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -128,9 +116,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Refactor seguro en pasos pequeños y reversibles, tests primero.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -146,9 +132,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Depuración sistemática: reproducir, aislar, hipótesis falsables.",
-        "categories": [
-          "engineering"
-        ]
+        "category": "engineering"
       }
     },
     {
@@ -164,9 +148,7 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Documentación técnica clara: qué-es / cuándo / cómo, con ejemplos reales.",
-        "categories": [
-          "documentation"
-        ]
+        "category": "documentation"
       }
     },
     {
@@ -182,9 +164,167 @@
       "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
       "listing": {
         "description": "Notas de versión por impacto desde commits y PRs.",
-        "categories": [
-          "productivity"
-        ]
+        "category": "productivity"
+      }
+    },
+    {
+      "name": "commit-helper",
+      "source": "./plugins/commit-helper",
+      "description": "Commits convencionales y mensajes claros a partir del diff staged.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Commits convencionales y mensajes claros a partir del diff staged.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "git-flow",
+      "source": "./plugins/git-flow",
+      "description": "Estrategia de ramas, rebase/merge seguro y PRs limpios.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Estrategia de ramas, rebase/merge seguro y PRs limpios.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "pr-writer",
+      "source": "./plugins/pr-writer",
+      "description": "Descripciones de PR completas: contexto, riesgos y plan de pruebas.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Descripciones de PR completas: contexto, riesgos y plan de pruebas.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "changelog-generator",
+      "source": "./plugins/changelog-generator",
+      "description": "Changelog estilo Keep a Changelog a partir del historial git entre tags.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Changelog estilo Keep a Changelog a partir del historial git entre tags.",
+        "category": "productivity"
+      }
+    },
+    {
+      "name": "i18n-scanner",
+      "source": "./plugins/i18n-scanner",
+      "description": "Detecta strings hardcodeados en la UI y propone claves i18n consistentes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Detecta strings hardcodeados en la UI y propone claves i18n consistentes.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "a11y-audit",
+      "source": "./plugins/a11y-audit",
+      "description": "Auditoría de accesibilidad WCAG: roles, foco, contraste y teclado.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Auditoría de accesibilidad WCAG: roles, foco, contraste y teclado.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "dep-audit",
+      "source": "./plugins/dep-audit",
+      "description": "Dependencias: vulnerabilidades, versiones obsoletas, duplicadas y sin uso.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Dependencias: vulnerabilidades, versiones obsoletas, duplicadas y sin uso.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "env-auditor",
+      "source": "./plugins/env-auditor",
+      "description": "Higiene de .env: secretos comprometidos, paridad entre entornos y fallbacks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Higiene de .env: secretos comprometidos, paridad entre entornos y fallbacks.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "sql-performance",
+      "source": "./plugins/sql-performance",
+      "description": "Análisis de queries lentas: índices, N+1, planes de ejecución y normalización.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Análisis de queries lentas: índices, N+1, planes de ejecución y normalización.",
+        "category": "developer-tools"
+      }
+    },
+    {
+      "name": "bundle-opt",
+      "source": "./plugins/bundle-opt",
+      "description": "Optimización de bundle: code-splitting, imports pesados y caché de assets.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mijo",
+        "url": "https://github.com/FaidersAltamar"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/FaidersAltamar/mijo-plugins",
+      "listing": {
+        "description": "Optimización de bundle: code-splitting, imports pesados y caché de assets.",
+        "category": "developer-tools"
       }
     }
   ]

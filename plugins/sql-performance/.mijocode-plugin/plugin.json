@@ -1,0 +1,11 @@
+{
+  "name": "sql-performance",
+  "version": "1.0.0",
+  "description": "Análisis de queries lentas: índices, N+1, planes de ejecución y normalización.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bundle-opt",
+  "version": "1.0.0",
+  "description": "Optimización de bundle: code-splitting, imports pesados y caché de assets.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}

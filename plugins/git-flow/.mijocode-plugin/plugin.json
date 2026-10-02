@@ -1,0 +1,11 @@
+{
+  "name": "git-flow",
+  "version": "1.0.0",
+  "description": "Estrategia de ramas, rebase/merge seguro y PRs limpios.",
+  "author": {
+    "name": "Mijo",
+    "url": "https://github.com/FaidersAltamar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FaidersAltamar/mijo-plugins"
+}
