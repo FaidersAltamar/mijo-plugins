@@ -4,9 +4,29 @@
     "name": "Mijo",
     "url": "https://github.com/FaidersAltamar"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Mijo plugins registry: código, seguridad, documentación y productividad.",
   "plugins": [
+    {
+      "name": "ecc",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC",
+        "sha": "ef648e01899ba3e8dc6371642deaaf64b4477775"
+      },
+      "description": "Superpoderes ECC: 68 agentes especialistas, 293 skills (TDD, revisi?n, seguridad, investigaci?n, frontend/backend, bases de datos, despliegue), comandos y hooks de calidad. Al instalarlo se activan los grupos ?tiles; el resto queda instalado y apagado en Skills.",
+      "version": "2.2.3",
+      "author": {
+        "name": "Affaan Mustafa",
+        "url": "https://github.com/affaan-m"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/affaan-m/ECC",
+      "listing": {
+        "description": "Superpoderes ECC: 68 agentes especialistas, 293 skills (TDD, revisi?n, seguridad, investigaci?n, frontend/backend, bases de datos, despliegue), comandos y hooks de calidad. Al instalarlo se activan los grupos ?tiles; el resto queda instalado y apagado en Skills.",
+        "category": "productivity"
+      }
+    },
     {
       "name": "code-review",
       "source": "./plugins/code-review",
